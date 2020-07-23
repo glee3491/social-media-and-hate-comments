@@ -1,0 +1,51 @@
+.chapters {
+  &__list {
+    @extend %list-reset;
+    counter-reset: chapter-counter;
+  }
+
+  &__item {
+    counter-increment: chapter-counter;
+    border-bottom: 1px solid rgba(var(--color-primary), 0.3);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    & .chapters__anchor:after {
+      content: '\00a7''0' counter(chapter-counter) '.';
+      letter-spacing: 0;
+    }
+
+    &:nth-child(1n + 10) .chapters__anchor:after {
+      content: '\00a7'counter(chapter-counter) '.';
+    }
+  }
+
+  &__anchor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $sp-sm 0;
+    font-size: $fs-md;
+    background: none;
+    letter-spacing: 0;
+    transition: letter-spacing $d-slower $ease-out;
+
+    &:hover {
+      letter-spacing: 0.05em;
+
+      &:after {
+        letter-spacing: 0;
+      }
+    }
+
+    @include tablet-portrait {
+      font-size: $fs-lg;
+    }
+
+    @include tablet-landscape {
+      font-size: 48px;
+    }
+  }
+}
