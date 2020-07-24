@@ -19,7 +19,7 @@ const LinkNext = ({ path, title }) => {
         <div className="link-next__wrapper" ref={refObserver}>
           <div className="link-next__label">Made by</div>
           <div className="link-next__title" data-splitting="">
-            Rou Hun Fan
+            Gina Lee
           </div>
         </div>
       </a>
@@ -38,7 +38,7 @@ const LinkNext = ({ path, title }) => {
         className={`link-next ${intersected ? 'show' : null}`}
       >
         <div className="link-next__wrapper" ref={refObserver}>
-          <div className="link-next__label">Read on</div>
+          <div className="link-next__label">Next</div>
           <div className="link-next__title" data-splitting="">
             {title}
           </div>

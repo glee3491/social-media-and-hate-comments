@@ -40,7 +40,7 @@ const ChaptersPage = ({ pageContext }) => {
           Chapters
         </h1>
 
-        <h2 className="subtitle">A summary of Naval Ravikant’s tweetstorms and podcast</h2>
+        <h2 className="subtitle">Social Media Hate Comments, Ethic and Responsibility</h2>
 
         {chapters.length > 1 ? (
           <nav className="chapters">
