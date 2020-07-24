@@ -16,10 +16,8 @@ const SEO = ({ description, lang, meta, title, socialImage }) => {
       query {
         site {
           siteMetadata {
-            siteUrl
             title
             description
-            twitter_handle
           }
         }
       }
@@ -35,7 +33,7 @@ const SEO = ({ description, lang, meta, title, socialImage }) => {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s`}
       meta={[
         {
           name: `description`,

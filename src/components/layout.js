@@ -10,9 +10,6 @@ import { setConfig } from 'react-hot-loader'
 
 import Footer from '../components/footer'
 
-import twitterCard from '../assets/cards/twitter-card.png'
-import ogCard from '../assets/cards/og-card.png'
-
 let Splitting
 if (typeof window !== `undefined`) {
   Splitting = require('splitting')
@@ -26,17 +23,15 @@ const Layout = ({ children }) => {
     query SiteTitleQuery {
       site {
         siteMetadata {
-          siteUrl
           title
           description
           keywords
-          twitter_handle
         }
       }
     }
   `)
 
-  const { siteUrl, title, description, keywords, twitter_handle } = site.siteMetadata
+  const { title, description, keywords } = site.siteMetadata
 
   const [themeDark, setThemeDark] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -80,25 +75,6 @@ const Layout = ({ children }) => {
           },
           { name: 'msapplication-TileColor', content: '#da532c' },
           { name: 'theme-color', content: '#ffffff' },
-
-          { name: 'twitter:card', content: 'summary_large_image' },
-          { name: 'twitter:site', content: twitter_handle },
-          { name: 'twitter:creator', content: twitter_handle },
-          { name: 'twitter:title', content: title },
-          { name: 'twitter:description', content: description },
-          { name: 'twitter:image:src', content: siteUrl + twitterCard },
-          { name: 'twitter:url', content: siteUrl },
-
-          { property: 'og:title', content: title },
-          { property: 'og:url', content: siteUrl },
-          { property: 'og:description', content: description },
-          { property: 'og:image', content: siteUrl + ogCard },
-          { property: 'og:image:width', content: 1200 },
-          { property: 'og:image:height', content: 628 },
-          { property: 'og:image:secure_url', content: siteUrl + ogCard },
-          { property: 'og:image:alt', content: title },
-          { property: 'og:site_name', content: title },
-          { property: 'og:type', content: 'website' },
         ]}
       />
 

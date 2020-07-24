@@ -11,7 +11,7 @@ const LinkNext = ({ path, title }) => {
   if (!path || !title) {
     return (
       <a
-        href="https://www.flowen.me"
+        href="https://goofy-jepsen-8cfb5e.netlify.app/"
         target="_blank"
         rel="noopener noreferrer"
         className={`link-next ${intersected ? 'show' : null}`}
