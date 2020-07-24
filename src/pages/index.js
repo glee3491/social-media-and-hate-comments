@@ -23,20 +23,19 @@ const AboutPage = () => {
     <>
       {}
       <SEO
-        title="Principles of Wealth .net"
-        description="A summary of Naval Ravikant’s tweetstorms and podcast"
+        title="Social Media and Hate Comments"
+        description="Social Media Hate Comments, Ethic and Responsibility"
       />
 
       <div className="about-page">
         <Nav />
 
         <h1 className="title" data-splitting="">
-          Principles
-          <br /> of Wealth
-          <br /> .net
+          Social Media and
+          <br /> Hate Coments
         </h1>
 
-        <h2 className="subtitle">A summary of Naval Ravikant’s tweetstorms and podcasts</h2>
+        <h2 className="subtitle">Social Media Hate Comments, Ethic and Responsibility</h2>
 
         <div className="intro">
           <p>

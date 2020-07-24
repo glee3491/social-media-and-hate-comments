@@ -86,7 +86,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
-  title: `Principles of Wealth`,
+  title: `Social Media and Hate Comments`,
   socialImage: false,
 }
 

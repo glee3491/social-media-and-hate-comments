@@ -57,9 +57,9 @@ const TemplateContent = ({ data, pageContext }) => {
             to="/"
             className="logo"
           >
-            Principles
-            <br /> of Wealth
-            <br /> .net
+            Social Media
+            <br /> and
+            <br /> Hate Comments
           </TransitionLink>
 
           <Nav />

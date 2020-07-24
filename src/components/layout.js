@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
 
   const { siteUrl, title, description, keywords, twitter_handle } = site.siteMetadata
 
-  const [themeDark, setThemeDark] = useState(true)
+  const [themeDark, setThemeDark] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
   useLayoutEffect(() => {

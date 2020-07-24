@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abhaya Libre Regular'), local('AbhayaLibre-Regular'), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3tmeuGtX-Co5MNzeAOqinEQfEnX.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Abhaya Libre Bold'), local('AbhayaLibre-Bold'), url(https://fonts.gstatic.com/s/abhayalibre/v5/e3t5euGtX-Co5MNzeAOqinEYx2zCrdZJ.woff2) format('woff2');
+}
