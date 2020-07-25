@@ -38,34 +38,7 @@ const AboutPage = () => {
         <h2 className="subtitle">Social Media Hate Comments, Ethic and Responsibility</h2>
 
         <div className="intro">
-          <p>
-            Social Media and Hate Comments{' '}
-            <a
-              href="https://twitter.com/naval/status/1002103360646823936"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              tweetstorm
-            </a>{' '}
-            and{' '}
-            <a href="https://nav.al/how-to-get-rich" target="_blank" rel="noopener noreferrer">
-              podcast 'how to get rich'
-            </a>
-            . Which started out as several tweetstorms, the podcast dove deep into each tweet.
-          </p>
-          <p>
-            But Podcasts are slow to consume. Reading is faster than listening and a summary is even
-            faster.
-          </p>
-          <p>
-            I wrote this out of my own interest and wanted to showcase my skills as a designer and
-            front-end developer.
-          </p>
-          <p>
-            <a href="https://flowen.me/" target="_blank" rel="noopener noreferrer">
-              Made by Rou Hun Fan
-            </a>
-          </p>
+        <iframe title="leftnright" width="652" height="367" src="https://www.youtube.com/embed/HdZdxocqzq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <p>
             <TransitionLink
               exit={{
