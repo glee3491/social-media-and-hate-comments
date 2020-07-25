@@ -38,7 +38,7 @@ const AboutPage = () => {
         <h2 className="subtitle">Social Media Hate Comments, Ethic and Responsibility</h2>
 
         <div className="intro">
-        <iframe title="leftnright" width="652" height="367" src="https://www.youtube.com/embed/HdZdxocqzq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="leftnright" width="652" height="367" src="https://www.youtube.com/embed/HdZdxocqzq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
           <p>
             <TransitionLink
               exit={{
