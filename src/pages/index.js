@@ -39,7 +39,7 @@ const AboutPage = () => {
 
         <div className="intro">
           <p>
-            This site is a summary of Naval's{' '}
+            Social Media and Hate Comments{' '}
             <a
               href="https://twitter.com/naval/status/1002103360646823936"
               target="_blank"
