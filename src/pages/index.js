@@ -31,8 +31,7 @@ const AboutPage = () => {
         <Nav />
 
         <h1 className="title" data-splitting="">
-          Social Media and
-          <br /> Hate Comments
+          Social Media and Hate Comment
         </h1>
 
         <h2 className="subtitle">Social Media Hate Comments, Ethic and Responsibility</h2>
