@@ -57,9 +57,7 @@ const TemplateContent = ({ data, pageContext }) => {
             to="/"
             className="logo"
           >
-            Social Media
-            <br /> and
-            <br /> Hate Comments
+            Social Media and Hate Comments
           </TransitionLink>
 
           <Nav />

@@ -118,12 +118,12 @@
 
     @include tablet-portrait {
       grid-column: 2 / -3;
-      columns: 2;
+      columns: 1;
       column-gap: var(--gutter);
     }
 
     @include tablet-landscape {
-      columns: 3;
+      columns: 1;
     }
 
     blockquote:first-child {
@@ -146,7 +146,6 @@
       /*&:first-child:first-letter {
         @include dropcap;
       }*/
-
       & + * {
         clear: left;
       }
