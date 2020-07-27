@@ -4,7 +4,7 @@ blockquote {
   border-top: 1px solid rgba(var(--color-primary), 0.3);
   border-bottom: 1px solid rgba(var(--color-primary), 0.3);
   font-weight: 700;
-  font-size: $fs-md;
+  font-size: $fs-sm;
   break-inside: avoid;
 
   @include tablet-portrait {
@@ -15,15 +15,15 @@ blockquote {
   p {
     margin-top: 0;
 
-    &:first-child {
-      &::before {
-        content: '\201C ';
-      }
+    // &:first-child {
+    //   &::before {
+    //     content: '\201C ';
+    //   }
 
-      &::after {
-        content: '\201D ';
-      }
-    }
+    //   &::after {
+    //     content: '\201D ';
+    //   }
+    // }
   }
 
   a {
@@ -40,8 +40,8 @@ blockquote {
 
   &.column-span {
     column-span: all;
-    margin-top: $sp-lg;
-    margin-bottom: $sp-lg;
+    margin-top: $sp-sm;
+    margin-bottom: $sp-md;
     border-width: 15px;
 
     & + * {
